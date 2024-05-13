@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" href="login.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+	<nav class="navbar">
+		<div class="navbar-container">
+			<input type="checkbox" name="" id="checkbox">
+			<div class="hamburger-lines">
+				<span class="line line1"></span>
+				<span class="line line2"></span>
+				<span class="line line3"></span>
+			</div>
+			<ul class="menu-items">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="index.html#sellers">Shop</a></li>
+				<li><a href="index.html#contact">Contact</a></li>
+				<li><a href="login.html">Sign in</a></li>
+			</ul>
+			<div class="logo">
+				<img src="logo.png" alt="logo">
+			</div>
+		</div>
+	</nav>
+</head>
+
+<body>
+	<div class="main">
+		<input type="checkbox" id="chk" aria-hidden="true">
+		<div class="signup">
+			<form id="signup-form">
+				<label for="chk" aria-hidden="true" style="color: white;">Sign up</label>
+				<input type="text" name="txt" id="username" placeholder="User name" required="">
+				<input type="email" name="email" id="email" placeholder="Email" required="">
+				<input type="password" name="pswd" id="password" placeholder="Password" required="">
+				<button id="signup-button"><a href="index.html" style="color:white; text-decoration:none;">Sign
+						up</a></button>
+				<div class="right">
+					<button class="social-signin google"><a href="index.html"
+							style="color:white; text-decoration:none;">Sign Up with Google+</a></button>
+					<button class="social-signin facebook"><a href="index.html"
+							style="color:white; text-decoration:none;"><span>Sign Up with Facebook</span></a></button>
+				</div>
+			</form>
+		</div>
+		<div class="login">
+			<form id="signin-form">
+				<label for="chk" aria-hidden="true">Login</label>
+				<input type="text" name="username" id="username" placeholder="Username" required="">
+				<input type="password" name="pswd" id="password" placeholder="Password" required="">
+				<button id="signin-button"><a href="index.html"
+						style="color:white; text-decoration:none;">Login</a></button>
+				<div class="right">
+					<button class="social-signin google"><a href="index.html"
+							style="color:white; text-decoration:none;">Sign in with Google+</a></button>
+					<button class="social-signin facebook"><a href="index.html"
+							style="color:white; text-decoration:none;"><span>Sign in with Facebook</span></a></button>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+
+</html>
